@@ -500,7 +500,7 @@ app.get('/api/v1/mobile/process-map/:weekYearTarget/:routines', async (req, res)
     var searchRoutine = null;
     var limitWaitTime = null;
     for (let i = 0; i < notes.length; i++) {
-        if (notes[i]) {
+        if (notes[i].length > 0) {
             if (notes[i][16] && searchRoutine !== notes[i][16]) {
                 searchRoutine = notes[i][16];
                 limitWaitTime = await getLimitWaitTime(notes[i][16]);
