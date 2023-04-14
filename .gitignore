@@ -1,0 +1,4 @@
+node_modules/
+src/database/Mongocredentials.js
+src/database/Oracle/connection.js
+src/database/Oracle/instantclient_21_8/

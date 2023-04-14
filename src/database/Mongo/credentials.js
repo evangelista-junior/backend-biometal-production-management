@@ -1,0 +1,1 @@
+module.exports = {key: 'mongodb+srv://dev:UzAZj2N7eJZANxOJ@biometal.sowhxg8.mongodb.net/GestãodeProdução?retryWrites=true&w=majority'}
